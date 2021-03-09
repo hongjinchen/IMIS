@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/connection/connection",
+    "pages/circle/circle",
+    "pages/publish/publish",
+    "pages/publish1/publish1",
+    "pages/publish2/publish2",
+    "pages/activity/activity",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "848586",
+    "selectedColor": "#5B6266",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "学友圈",
+        "iconPath": "icons/circle.png",
+        "selectedIconPath": "icons/circleFill.png"
+      },
+      {
+        "pagePath": "pages/connection/connection",
+        "text": "人脉",
+        "iconPath": "icons/connection.png",
+        "selectedIconPath": "icons/connectionFill.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "icons/publish.png",
+        "selectedIconPath": "icons/publish.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "icons/activity.png",
+        "selectedIconPath": "icons/activityFill.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "icons/personal.png",
+        "selectedIconPath": "icons/personalFill.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

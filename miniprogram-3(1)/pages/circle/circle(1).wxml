@@ -1,0 +1,6 @@
+<!--pages/circle/circle.wxml-->
+<view class="circle_index">
+  <Searchinput></Searchinput>
+
+</view>
+

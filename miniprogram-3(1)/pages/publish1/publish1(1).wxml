@@ -1,0 +1,32 @@
+<!--pages/publish1/publish1.wxml-->
+
+<!-- “前往活动发布界面”设计 -->
+<view>
+<button class="activity_button" size="mini" bindtap="jumpPage">
+    前往活动发布界面
+</button>
+</view>
+
+<!-- 文字输入框 -->
+<view class='father_view'>
+ <view class='wenbenkuang'>
+     <textarea class="textarea-bg" placeholder="请输入内容..." bindblur="getDataBindTap" 
+   maxlength="140"/>
+<view class="tupian">
+  <!-- 根据已选择的图片临时路径数组展示图片-->
+  <view class='ui_uploader_item' wx:for="{{uploaderList}}" wx:key="{{index}}">
+  <!-- 删除-->
+  <icon class='shanchu' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red"/>
+  <!-- 图片-->
+  <image bindtap='showImg' data-index="{{index}}" src='{{item}}'></image>
+  </view>
+  <!-- 上传按钮+框 -->
+  <view class='ui_uploader' bindtap='upload' wx:if="{{showUpload}}">
+  </view>
+</view>
+</view>
+</view>
+
+
+ 
+

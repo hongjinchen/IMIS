@@ -1,0 +1,45 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar{
+  flex: none;
+  display: flex;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size:small;
+  background:white;
+}
+.navbar .item.active{
+  font-size:small;
+  font-weight: bold;
+  color: #7B9DBA;
+}
+
+/* 我的名片文字设计 */
+.mingpian{
+  font-size:small;
+  margin-left:35rpx;
+  margin-top:30rpx;
+}
+/* 我的名片文本框设计 */
+.wodebiankuang{
+  border:150rpx solid white;
+  margin-top:35rpx;
+  margin-left:35rpx;
+  margin-right:35rpx;
+  box-shadow: 1px 2px 3px 2px #A3A3A3;
+  border-radius: 16px;
+}
+
+/* 活动关注文字设计 */
+.guanzhu{
+  font-size:small;
+  margin-left:35rpx;
+  margin-top:60rpx;
+}
