@@ -6,7 +6,9 @@
     "pages/publish1/publish1",
     "pages/publish2/publish2",
     "pages/activity/activity",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/mine_AddInformation/addInformation",
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

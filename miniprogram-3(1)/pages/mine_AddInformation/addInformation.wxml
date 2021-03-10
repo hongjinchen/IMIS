@@ -1,0 +1,23 @@
+<!--pages/mine_AddInformation/addInformation.wxml-->
+<view class="sel-input">
+	<view class="item-flex">
+		<text>头像</text>
+<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+	<image></image>
+	</view>
+	<view class="item-flex">
+		<text>姓名</text>
+		<textarea auto-height="true" value="{{user_name}}" bindinput='getCompany_name' placeholder="请输入姓名...." />
+	</view>
+	<view class="item-flex">
+		<text>性别</text>
+		<textarea auto-height="true" value="{{user_gander}}" bindinput='getContact'  placeholder="请输入性别...." />
+	</view>
+  	<view class="item-flex">
+		<text>当前专业</text>
+		<textarea auto-height="true" value="{{user_major}}" name="当前专业" bindinput='getContact'  placeholder="请输入...." />
+	</view>
+</view>
+<view>
+	<button class="goodbutton" hover-class="hover" bindtap="handleClick">跳转一下</button>
+</view>
