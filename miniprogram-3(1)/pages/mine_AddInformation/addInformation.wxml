@@ -21,3 +21,5 @@
 <view>
 	<button class="goodbutton" hover-class="hover" bindtap="handleClick">跳转一下</button>
 </view>
+<view>
+</view>
